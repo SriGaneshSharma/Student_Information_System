@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>New student</title>
+</head>
+<body>
+<form action="StudentServelt" method="post">
+<table>
+<tr><th>
+<label>Enter student id</label>
+</th>
+<td>
+<input type="number" name="sid" required>
+</td>
+</tr>
+<tr>
+<th>
+<label>Enter student name</label>
+</th>
+<td>
+<input type="text" name="sname" required>
+</tr>
+<tr>
+<th>
+<label>Enter student gender</label>
+</th>
+<td>
+Male<input type="radio" name="gen" value="m">
+Female<input type="radio" name="gen" value="f">
+</td>
+</tr>
+<tr>
+<th>
+<label>Enter student email</label>
+</th>
+<td>
+<input type="email" name="semail" required>
+</tr>
+<tr>
+<th>
+<label>Enter student date of birth</label>
+</th>
+<td>
+<input type="date" name="sdate" required>
+</tr>
+<tr>
+<th>
+<label>Enter student phone number</label>
+</th>
+<td>
+<input type="number" name="sphn" required>
+</tr>
+<tr>
+<td>
+<input type="reset" >
+</td>
+<td>
+<input type="submit" value="Submit">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
